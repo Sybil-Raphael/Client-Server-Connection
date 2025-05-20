@@ -24,7 +24,7 @@ This lab implements a TCP client that communicates with a server. The client per
 2.  Run the client executable from the command line, providing the server's IP address and port number:
 
     ```bash
-    ./client <server_ip_address> <server_port_number>
+    ./client <ipAddress> <portNumber>
     ```
 
 ## Lab 2: UDP Client
@@ -55,5 +55,5 @@ This lab implements a UDP client that broadcasts a request to a server. The clie
 2.  Run the client executable from the command line, providing the server's port number:
 
     ```bash
-    ./DGclient <server_port_number>
+    ./DGclient <portNumber>
     ```
